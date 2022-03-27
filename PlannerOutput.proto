@@ -5,12 +5,12 @@ option java_package = "com.team195.protos";
 option java_outer_classname = "PlannerOutputProtos";
 
 message PlannerOutput {
-  double leftMotorOutputRadPerSec = 1;
-  double leftMotorFeedForwardVoltage = 2;
-  double leftMotorAccelRadPerSec2 = 3;
-  double rightMotorOutputRadPerSec = 4;
-  double rightMotorFeedForwardVoltage = 5;
-  double rightMotorAccelRadPerSec2 = 6;
-  bool trajectoryActive = 7;
-  bool trajectoryCompleted = 8;
+  double left_motor_output_rad_per_sec = 1;
+  double left_motor_feedforward_voltage = 2;
+  double left_motor_accel_rad_per_sec2 = 3;
+  double right_motor_output_rad_per_sec = 4;
+  double right_motor_feedforward_voltage = 5;
+  double right_motor_accel_rad_per_sec2 = 6;
+  bool trajectory_active = 7;
+  bool trajectory_completed = 8;
 }
