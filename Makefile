@@ -1,6 +1,6 @@
 ARCH := $(shell arch)
 ODIR := out
-LIB := RobotComms.a
+LIB := quesadilla_ros_proto.a
 LIB_x86_64 := $(ODIR)/x86_64/$(LIB)
 LIB_AARCH64 := $(ODIR)/aarch64/$(LIB)
 
