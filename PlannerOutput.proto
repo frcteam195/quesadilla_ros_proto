@@ -13,4 +13,5 @@ message PlannerOutput {
   double right_motor_accel_rad_per_sec2 = 6;
   bool trajectory_active = 7;
   bool trajectory_completed = 8;
+  int32 trajectory_id = 9;
 }
